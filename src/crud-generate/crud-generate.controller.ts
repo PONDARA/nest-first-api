@@ -8,7 +8,7 @@ import internal from 'stream';
 export class CrudGenerateController {
   constructor(private readonly crudGenerateService: CrudGenerateService) {}
 
-  @Post('boror')
+  @Post('test')
   post(@Body() body: CreateCrudGenerateDto){
     return body
   }
